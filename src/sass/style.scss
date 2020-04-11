@@ -1,14 +1,16 @@
+@import 'libs/fonts';
+
 @import 'libs/bootstrap-reboot.min';
 
 * {
-    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .container {
     max-width: 950px;
     margin: 0 auto;
 }
 
-@import '../sass/blocks/subheader';
+@import '../sass/blocks/header';
 
 
 @import '../sass/media';

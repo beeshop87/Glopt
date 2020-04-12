@@ -1,0 +1,27 @@
+.button {
+    border: none;
+    border-radius: 40px;
+    background-color: $main-color;
+    color: $second-color;
+    text-transform: uppercase;
+    text-align: center;
+    &:focus {
+        outline: none;
+        color: #fff;
+    }
+    &:hover {
+        color: #fff;
+    }
+    &_call {
+        font-size: 12px;
+        font-weight: 400;
+        width: 160px;
+        height: 45px;
+    }
+    &_calc {
+        width: 230px;
+        height: 57px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+}

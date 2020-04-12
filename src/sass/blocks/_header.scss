@@ -9,6 +9,7 @@
         align-items: center;
     }
     &__logo {
+        margin-right: 15px;
         max-width: 100px;
         height: 100px;
         &_img {
@@ -22,10 +23,130 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-left: 0;
+        margin-bottom: 0;
+        &_item {
+            display: block;
+            list-style-type: none;
+            border-right: 1.5px dotted $second-color;
+            padding-right: 13px;
+            &:last-child {
+                border-right: none;
+            }
+        }
         &_link {
-            color: #ffffff;
+            color: $second-color;
             font-size: 15px;
             font-weight: 400;
+            &:hover {
+                color: $main-color;
+                font-size: 16px;
+            }
         }
     }
+    &__phone {
+        display: flex-wrap;
+        width: 165px;
+        height: 40px;
+        &_descr {
+            font-size: 14px;
+            font-weight: 300;
+            color: $second-color;
+            text-align: end;
+            line-height: 14px;
+        }
+        &_call {
+            font-size: 19px;
+            font-weight: 700;
+            color: $second-color;
+            &:hover {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+
+    &__promo {
+        &_descr {
+            color: $second-color;
+            font-size: 24px;
+            font-weight: 300;
+            text-align: center;
+            line-height: 25px;
+            margin-top: 9px;
+        }
+        &_title {
+            color: $main-color;
+            font-size: 72px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 72px;
+            margin-top: 26px;
+        }
+        &_subtitle {
+            color: $second-color;
+            font-size: 42px;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 42px;
+            margin-top: 9px;
+        }
+    }
+
+    &__line {
+        width: 100%;
+        height: 10px;
+        padding: 0 165px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 38px;
+        hr {
+            height: 1px;
+            width: 45%;
+            border-top: none;
+        }
+        div {
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            background-color: $second-color;
+        }
+    }
+
+    &__card {
+        min-height: 135px;
+        width: 260px;
+        &_wraper {
+            margin-top: 35px;
+            min-height: 135px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &_img {
+            margin: 0 auto;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &_descr {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 22px;
+            color: $second-color;
+            text-align: center;
+        }
+    }
+
+    .button_calc {
+        display: block;
+        margin: 32px auto 0;
+    }
+
 }

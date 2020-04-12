@@ -1,16 +1,20 @@
 @import 'libs/fonts';
-
 @import 'libs/bootstrap-reboot.min';
 
 * {
     font-family: 'Roboto', sans-serif;
 }
 .container {
-    max-width: 950px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
+@import '../sass/base/variables';
+
 @import '../sass/blocks/header';
+@import '../sass/blocks/buttons';
+
+
 
 
 @import '../sass/media';

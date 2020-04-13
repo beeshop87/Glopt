@@ -105,9 +105,10 @@
         margin: 0 auto;
         margin-top: 38px;
         hr {
-            height: 1px;
             width: 45%;
-            border-top: none;
+            height: 1px;
+            border: none;
+            background-color: $second-color;
         }
         div {
             width: 10px;

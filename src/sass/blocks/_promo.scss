@@ -1,0 +1,38 @@
+.promo  {
+    padding: 58px 0 55px;
+    min-height: 342px;
+    &__ico {
+        width: 102px;
+        height: 102px;
+        border-radius: 100%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $second-color;
+    }
+    &__subtitle {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        color: $second-color;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    &__descr {
+        margin: 0 auto;
+        width: 990px;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+        color: $second-color;
+        margin-top: 22px;
+        text-align: center;
+    }
+    &_agent {
+        background: url(/img/bg_agent.jpg) center (center/cover) no-repeat;
+    }
+    &_managers {
+        background: url(/img/bg_managers.jpg) center (center/cover) no-repeat;
+    }
+}

@@ -1,0 +1,27 @@
+.subtitle-block {
+    &__promo {
+    color: $third-color;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+    }
+    &__line {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 148px;
+        background-color: $main-color;
+        height: 1px;
+        border: none;
+    }
+    &__descr {
+        margin-top: 17px;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center; 
+    }
+}

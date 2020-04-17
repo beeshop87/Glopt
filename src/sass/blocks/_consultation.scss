@@ -1,0 +1,47 @@
+.consultation {
+    min-height: 400px;
+    padding: 56px 0 58px;
+    &__title {
+        text-align: center;
+        color: $third-color;
+        font-size: 28px;
+        font-weight: 400;
+    }
+    &__wrapper {
+        position: relative;
+    }
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 102px;
+        height: 102px;
+        border-radius: 100%;
+        border: 1px solid;
+        border-color: $main-color;
+        &-border {
+            margin: 0 auto;
+            width: 122px;
+            height: 122px;
+            border: none;
+            background-color: #fff;
+        }
+    }
+    .feed-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 14px;
+    }
+    &-form {
+        &__border {
+            position: absolute;
+            width: 1140px;
+            height: 166px;
+            border: 1px solid;
+            border-color: #898989;
+            top: 61px;
+            z-index: -5;
+        }
+    }
+}

@@ -106,7 +106,7 @@
         margin-top: 38px;
         hr {
             width: 45%;
-            height: 1px;
+            height: 2px;
             border: none;
             background-color: $second-color;
         }
@@ -121,12 +121,12 @@
     &__card {
         min-height: 135px;
         width: 260px;
+        margin: 35px 12px;
         &_wraper {
-            margin-top: 35px;
             min-height: 135px;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
         }
         &_img {
             margin: 0 auto;

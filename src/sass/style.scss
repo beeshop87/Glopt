@@ -1,5 +1,6 @@
-@import 'libs/fonts';
 @import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -22,6 +23,7 @@
 @import '../sass/blocks/cost';
 @import '../sass/blocks/consultation';
 @import '../sass/blocks/schema';
+@import '../sass/blocks/feeds';
 
 
 

@@ -1,17 +1,37 @@
 .feed-form {
-    max-width: 1140px;
+    margin-top: 14px;
+    max-width: 818px;
     margin: 0 auto;
     margin-top: 16px;
     justify-content: space-between;
     input {
         padding: 18px 27px;
-        margin: 0 3px;
         width: 268px;
         height: 45px;
-        border-radius: 45px;
+        border-radius: 20px;
         border: 1px solid rgba(0, 0, 0, 0.21);
         background-color: #ffffff;
         font-size: 13px;
         font-weight: 300;
+        color: rgba($color: #101010, $alpha: 0.7);
+    }
+    &-quest {
+        height: 190px;
+        input {
+            margin: 0;
+        }
+        textarea {
+            display: block;
+            margin: 8px auto 0;
+            resize: none;
+            width: 813px;
+            height: 71px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            background-color: #ffffff;
+            border-radius: 10px;
+            font-size: 13px;
+            font-weight: 300;
+            padding: 15px 25px;
+        }
     }
 }

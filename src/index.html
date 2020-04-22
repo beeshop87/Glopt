@@ -250,9 +250,8 @@
                     <input name="name" required placeholder="Ваше имя" type="text">
                     <input name="phone" required placeholder="Ваш номер телефона">
                     <input name="email" required placeholder="Ваш E-mail" type="email">
-                    <!-- <button class="button button_border">отправить заявку</button> -->
+                    <button class="button button_border">отправить заявку</button>
                 </form>
-                <button class="button button_border">отправить заявку</button>
                 <div class="consultation-form__border"></div>
             </div>
             
@@ -339,10 +338,68 @@
             </div>
         </div>
     </section>
+
+    <section class="quest">
+        <div class="container">
+            <div class="quest__form">
+                <div class="quest__form__header">
+                    <h2 class="quest__form__header_title">Остались вопросы?</h2>
+                    <h2 class="quest__form__header_subtitle">Напишите нам!</h2>
+                </div>
+                <div class="quest__form__wrapper">
+                    <form id="quest-form" class="feed-form feed-form-quest" action="#">
+                        <input name="name" required placeholder="Ваше имя..." type="text">
+                        <input name="phone" required placeholder="Ваш номер телефона...">
+                        <input name="email" required placeholder="Ваш E-mail..." type="email">
+                        <textarea name="comment" required placeholder="Сообщение..." type="text"></textarea>
+                        <button class="button button_quest">отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.6065455240664!2d37.625029315930284!3d55.74796498055206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54af8f4b2bb81%3A0x45d8b81f41916c35!2z0KHQsNC00L7QstC90LjRh9C10YHQutCw0Y8g0YPQuy4sIDUsINCc0L7RgdC60LLQsCwgMTE1MDM1!5e0!3m2!1sru!2sru!4v1587531154418!5m2!1sru!2sru" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="footer__info">
+            <address class="footer__addr"><span>г. Москва</span><br>ул. Садовническая, дом 5, офис 4-6<br>700 от м. Новокузнецкая</address>
+            <a class="footer__phone" href="tel:89264230100">Тел: +7 (926) 423 01 00</a>
+            <a href="#" class="footer__link">info@glopt.ru</a>
+        </div>
+
+        <div class="footer__content">
+            <div class="container">
+                <div class="footer__content_header">
+                    <div class="header__row header__row-footer">
+                        <div class="header__logo header__logo-footer">
+                            <a href="#" class="header__logo_img"><img src="icons/logo_min.png" alt="logo"></a>
+                        </div>
+                        <div class="header__descr">Global Opt - Доставка грузов из Китая в Россию и СНГ</div>
+                        <div class="header__phone header__phone-footer">
+                            <div class ="header__phone_descr">Есть вопросы?</div>
+                            <a href="tel:89264230100" class="header__phone_call">+7 (926) 423 01 00</a>
+                        </div>
+                        <button class="button">Перезвоните мне</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer__content_autors">
+                    <a class = "footer__content_autors-link" href="#">© 2010 Scratch.com.ua</a>
+                    <a class = "footer__content_autors-privat"href="#">Политика конфидециальности</a>
+                    <a class = "footer__content_autors-create"href="#">
+                        <h2>Создание сайта:</h2>
+                        <img src="icons/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
     
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+
 
     <script src="js/script.js"></script>
 </body>

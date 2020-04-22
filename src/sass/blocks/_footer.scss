@@ -1,0 +1,104 @@
+.footer {
+    position: relative;
+    iframe {
+        height: 500px;
+        width: 100%;
+    }
+    &__info {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 25px;
+        max-width: 310px;
+        height: 158px;
+        background-color: rgba($color: #fff, $alpha: 0.9);
+    }
+    &__addr {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        color: #3a3a3a;
+        margin: 0;
+        text-align: center;
+        span {
+            color: $main-color;
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+    &__phone {
+        display: block;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        color: #3a3a3a;
+        text-align: center;
+    }
+    &__link {
+        display: block;
+        font-weight: 300;
+        text-decoration: underline;
+        font-size: 14px;
+        color: $main-color;
+        text-align: center;
+    }
+
+
+    &__content {
+        padding-bottom: 28px;
+        height: 201px;
+        background-color: rgba($color: #25333c, $alpha: 0.9);
+        &_header {
+            margin: 0 15px;
+        }
+        .header__descr {
+            color: rgba($color: #fff, $alpha: 0.9);
+            font-size: 16px;
+            font-weight: 700;
+        }
+        &_autors {
+            margin: 19px 15px;
+            display: flex;
+            justify-content: space-between;
+            &-link {
+                margin-top: 11px;
+                color: rgba($color: #fff, $alpha: 0.6);
+                font-size: 13px;
+                font-weight: 300;
+            }
+            &-privat {
+                margin-right: 20%;
+                margin-top: 11px;
+                font-size: 13px;
+                font-weight: 300;
+                color: $main-color;
+                text-decoration: underline;
+                &:hover {
+                    color: $main-color;
+                }
+            }
+            &-create {
+                display: flex;
+                height: 30px;
+                align-items: center;
+                h2 {
+                    color: rgba($color: #fff, $alpha: 0.6);
+                    font-size: 13px;
+                    font-weight: 300;
+                    margin-right: 10px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    hr {
+        opacity: 0.3;
+        border: none;
+        background-color: #fff;
+        height: 1px;
+        margin: 0;
+    }
+    
+}

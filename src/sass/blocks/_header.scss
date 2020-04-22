@@ -7,6 +7,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        &-footer {
+            height: 121px;
+        }
     }
     &__logo {
         margin-right: 15px;
@@ -16,6 +19,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+        &-footer {
+            width: 72px;
+            height: 72px;
         }
     }
     &__menu {
@@ -64,6 +71,9 @@
                 color: #fff;
             }
         }
+        &-footer {
+            margin-left: 20%;
+        }
     }
 
     &__promo {
@@ -106,7 +116,7 @@
         margin-top: 38px;
         hr {
             width: 45%;
-            height: 2px;
+            height: 1px;
             border: none;
             background-color: $second-color;
         }

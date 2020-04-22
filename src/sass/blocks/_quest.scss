@@ -1,0 +1,44 @@
+.quest {
+    padding: 62px 0 79px;
+    min-height: 438px;
+    background: url(/img/bg_quest.jpg) center (center/cover) no-repeat;
+    &__form {
+        padding-bottom: 25px;
+        margin: 0 auto;
+        width: 896px;
+        height: 297px;
+        background-color: rgba($color: #fff, $alpha: 0.7);
+        &__header {
+            padding: 18px;
+            width: 896px;
+            height: 68px;
+            background-color: rgba($color: #25333c, $alpha: 0.9);
+            &_title {
+                margin-bottom: 0;
+                font-size: 19px;
+                font-weight: 700;
+                text-transform: uppercase;
+                text-align: center;
+                color: rgba($color: #fff, $alpha: 0.9);
+                line-height: 19px;
+            }
+            &_subtitle {
+                margin-bottom: 0;
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: rgba($color: #fff, $alpha: 0.9);
+                text-align: center;
+            }
+        }
+        &__wrapper {
+            max-width: 813px;
+            margin: 18px auto;
+        }
+    }
+
+
+
+
+    
+}
